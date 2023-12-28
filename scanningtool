@@ -69,3 +69,4 @@ def detect_malware_in_folder(folder_path):
 if __name__ == "__main__":
     folder_path = input("Enter the folder path: ")
     detect_malware_in_folder(folder_path)
+print("THESE ARE THE MALWARE FIND IN YOUR FOLDER PATH")
