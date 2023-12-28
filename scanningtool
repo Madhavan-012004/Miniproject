@@ -36,7 +36,6 @@ def load_signatures():
     # Example signatures (modify or expand based on actual signatures)
     signatures = {
         b'\x90\x90\x90\x90': 'NOP Sled',
-        b'\x55\x8B\xEC': 'Function Prologue',
         b'\xD9\xEE\xD9\x74\x24\xF4\x59': 'Metasploit Payload'
     }
     return signatures
